@@ -5,7 +5,7 @@
 }
 
 
-@media (max-width: 768px){
+@media (max-width: 846px){
     .informacoes{
     display: flex;
     flex-direction: column;
