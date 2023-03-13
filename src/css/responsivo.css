@@ -17,9 +17,9 @@
     text-align: center;
     }
 }
-@media (max-width:425px){
+@media (max-width:412px){
     .informacoes .logo{
-        max-width: 300px;
+        max-width: 90px;
     }
     .informacoes .descricao{
         width: 100%;
