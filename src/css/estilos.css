@@ -32,11 +32,39 @@ main:after {
 }
 
 .informacoes .descricao {
-	width: 400px;
-	font-size: 25px;
-	color: #ffffff;
-	line-height: 30px;
+	width: 450px;
+    font-size: 20px;
+    color: #ffffff;
+    line-height: 60px;
+	text-align: center;
+	position: relative;
+	top: 0%;
+	left: 40%;
+	font-size:  35px;
+	color: #000;
+    text-shadow: 
+    -1px -1px 0px #FFF, 
+    -1px 1px 0px #FFF,                    
+    1px -1px 0px #FFF,                  
+    1px 0px 0px #FFF;
 	}
+
+.informacoes .endereco{
+	width: 700px;
+    font-size: 20px;
+    color: #ffffff;
+    line-height: 30px;
+	position: relative;
+	top: 70%;
+	left: 40%;
+	font-size:  30px;
+	color: #000;
+	text-shadow: 
+    -1px -1px 0px #FFF, 
+    -1px 1px 0px #FFF,                    
+    1px -1px 0px #FFF,                  
+    1px 0px 0px #FFF;
+}
 
 .botoes-carrossel {
 	display: flex;
@@ -51,7 +79,7 @@ main:after {
 	border-radius: 50%;
 	border: 2px solid transparent;
 	cursor: pointer;
-	border-color: #ffffff;
+	border-color: #000000;
 }
 
 .botoes-carrossel .botao.selecionado {
@@ -110,11 +138,6 @@ main:after {
 
 .carrossel .imagem.ativa {
 	display: block;
-}
-
-.id{
-	max-width: 720px;
-	max-height: 1024px;
 }
 
 @keyframes mudarImagem {

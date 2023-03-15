@@ -19,7 +19,8 @@ const imagens = document.querySelectorAll('.imagem');
 
         //passo 6 - fazer aparecer a imagem correspondente ao botão clicado
         mostarImagemFundo(indice);
-
+        
+        
     })
 } )
 
